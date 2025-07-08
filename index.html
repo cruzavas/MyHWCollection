@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
@@ -38,12 +39,46 @@
             </div>
         </div>
     </nav>
-    <h1>Mi colección de Hot Wheels 2023-2025</h1>
-
     <div class="container">
+        <h1>Mi colección de Hot Wheels 2023-2025</h1>
+        <h2>Mi top 3 según deepseek</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card text-white bg-secondary mb-3">
+                    <img class="card-img-top" src="https://static.wikia.nocookie.net/hotwheels/images/c/c6/HKJ73.jpg"
+                        alt="Batman Forever Batmobile">
+                    <div class="card-body">
+                        <p class="card-text">Batman Forever Batmobile (2nd Color)</p>
+                        <span class="collection-tag batman">Batman</span> <span class="new-badge">NEW</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white bg-secondary mb-3">
+                    <img class="card-img-top"
+                        src="https://static.wikia.nocookie.net/hotwheels/images/f/f3/FordTransitFlowerVan.jpg"
+                        alt="Ford Transit Connect">
+                    <div class="card-body">
+                        <p class="card-text">Hot Wheels Ford Transit Connect</p>
+                        <span class="collection-tag treasure-hunt">HW Vans Treasure Hunt</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white bg-secondary mb-3">
+                    <img class="card-img-top"
+                        src="https://static.wikia.nocookie.net/hotwheels/images/4/49/Mainline_2025_Treasure_Hunt_Fish'd_%26_Chip'd_Brown_Malaysia_JBC21.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Fish'd & Chip'd</p>
+                        <span class="collection-tag treasure-hunt">HW Treasure Hunt</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- 2023 - Colección Completa -->
         <h1 id="primera">Hot Wheels 2023</h1>
-
         <div class="table-container">
             <table id="table_2023" class="display">
                 <thead>
@@ -532,7 +567,6 @@
 
         <!-- 2024 - Colección Completa -->
         <h1 id="segunda">Hot Wheels 2024</h1>
-
         <div class="table-container">
             <table id="table_2024" class="display">
                 <thead>
@@ -1037,7 +1071,6 @@
 
         <!-- 2025 - Novedades -->
         <h1 id="tercera">Hot Wheels 2025</h1>
-
         <div class="table-container">
             <table id="table_2025" class="display">
                 <thead>
@@ -1143,283 +1176,7 @@
             </table>
         </div>
     </div>
-
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding-top: 4.5rem;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-
-        .container {
-            width: 65%;
-            margin: auto;
-        }
-
-        h1 {
-            color: #e51937;
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 2.2em;
-        }
-
-        h2 {
-            color: white;
-            background-color: #e51937;
-            padding: 10px 15px;
-            border-radius: 5px;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            font-size: 1.5em;
-            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .table-container {
-            overflow-x: auto;
-            margin-bottom: 40px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            padding: 5px;
-        }
-
-        th {
-            background-color: #bebebe;
-        }
-
-        .image-cell {
-            text-align: center;
-            width: 120px;
-        }
-
-        img {
-            max-width: 100px;
-            height: auto;
-            border-radius: 4px;
-            transition: transform 0.3s;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        img:hover {
-            transform: scale(1.1);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .collection-tag {
-            display: inline-block;
-            padding: 4px 8px;
-            border-radius: 12px;
-            font-size: 0.75em;
-            font-weight: bold;
-            color: white;
-            margin: 2px;
-            white-space: nowrap;
-        }
-
-        /* Colores por colección */
-        .dream-garage {
-            background-color: #9b59b6;
-        }
-
-        .batman {
-            background-color: #2c3e50;
-        }
-
-        .art-cars {
-            background-color: #e74c3c;
-        }
-
-        .premium {
-            background-color: #f39c12;
-        }
-
-        .entertainment {
-            background-color: #1abc9c;
-        }
-
-        .surf {
-            background-color: #3498db;
-        }
-
-        .race-team {
-            background-color: #e67e22;
-        }
-
-        .hot-trucks {
-            background-color: #d35400;
-        }
-
-        .exotics {
-            background-color: #27ae60;
-        }
-
-        .rescue {
-            background-color: #c0392b;
-        }
-
-        .slammed {
-            background-color: #8e44ad;
-        }
-
-        .wagons {
-            background-color: #16a085;
-        }
-
-        .first-response {
-            background-color: #e74c3c;
-        }
-
-        .modified {
-            background-color: #f1c40f;
-            color: #333;
-        }
-
-        .compact-kings {
-            background-color: #2ecc71;
-        }
-
-        .mega-bite {
-            background-color: #9b59b6;
-        }
-
-        .screen-time {
-            background-color: #3498db;
-        }
-
-        .treasure-hunt {
-            background: linear-gradient(45deg, #f1c40f, #e67e22);
-            color: #333;
-            font-weight: bold;
-        }
-
-        .gassers {
-            background-color: #74C365;
-        }
-
-        .rod-squad {
-            background-color: #696969;
-        }
-
-        .metro {
-            background-color: silver;
-        }
-
-        .drag-strip {
-            background-color: #E5E4E2;
-        }
-
-        .celebration {
-            background-color: #91D8EB;
-        }
-
-        .tooned {
-            background-color: #5f9ea0;
-        }
-
-        .dirt {
-            background-color: #CD7F32;
-        }
-
-        .fast-transit {
-            background-color: #FBB912;
-        }
-
-        .rolling-metal {
-            background-color: #D8D8D8;
-        }
-
-        .reverse-rake {
-            background-color: #27993B;
-        }
-
-        .xtreme-sports {
-            background-color: #FFA52C;
-        }
-
-        .lets-race {
-            background-color: #DC143C;
-        }
-
-        .roadsters {
-            background-color: #353839;
-        }
-
-        .ride-ons {
-            background-color: #A5CEEF;
-        }
-
-        .factory-fresh {
-            background-color: #77B5FE;
-        }
-
-        .ev {
-            background-color: #94C83C;
-        }
-
-        .j-imports {
-            background-color: #54CBF5;
-        }
-
-        .new-badge {
-            display: inline-block;
-            background-color: #e51937;
-            color: white;
-            font-size: 0.7em;
-            padding: 2px 6px;
-            border-radius: 10px;
-            margin-left: 5px;
-            vertical-align: middle;
-        }
-
-        @media (max-width: 768px) {
-
-            th,
-            td {
-                padding: 8px 10px;
-                font-size: 0.9em;
-            }
-
-            .image-cell {
-                width: 80px;
-            }
-
-            img {
-                max-width: 70px;
-            }
-        }
-    </style>
-
-    <script>
-        new DataTable('#table_2023', {
-            layout: {
-                bottomEnd: {
-                    paging: {
-                        firstLast: false
-                    }
-                }
-            }
-        });
-        new DataTable('#table_2024', {
-            layout: {
-                bottomEnd: {
-                    paging: {
-                        firstLast: false
-                    }
-                }
-            }
-        });
-        new DataTable('#table_2025', {
-            layout: {
-                bottomEnd: {
-                    paging: {
-                        firstLast: false
-                    }
-                }
-            }
-        });
-    </script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>
