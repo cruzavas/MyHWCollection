@@ -25,6 +25,10 @@
      text-align: center;
  }
 
+ .card-body {
+     text-align: center;
+ }
+
  .table-container {
      overflow-x: auto;
      margin-bottom: 40px;
@@ -222,12 +226,14 @@
      vertical-align: middle;
  }
 
- .card-body {
+ footer {
+     background-color: rgba(var(--bs-dark-rgb), 1);
+     color: white;
+     padding: 20px 0;
      text-align: center;
- }
-
- .card img {
-     height: 33em;
+     position: relative;
+     bottom: 0;
+     width: 100%;
  }
 
  @media (max-width: 768px) {

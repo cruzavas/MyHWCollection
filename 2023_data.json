@@ -1,0 +1,553 @@
+[
+    {
+        "codigo": "HKJ94",
+        "numero": "001",
+        "modelo": "Volvo P1800 Gasser (2nd Color)",
+        "coleccion": {
+            "nombre": "HW Dream Garage",
+            "tipo": "dream-garage",
+            "nuevo": true
+        },
+        "serie": "1/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/9/90/HKJ94.jpg",
+        "categoria": "Clásicos modificados"
+    },
+    {
+        "codigo": "HKJ72",
+        "numero": "003",
+        "modelo": "Classic TV Series Batmobile (2nd Color)",
+        "coleccion": {
+            "nombre": "Batman",
+            "tipo": "batman",
+            "nuevo": false
+        },
+        "serie": "1/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/8/8d/HKJ72.jpg",
+        "categoria": "Entretenimiento"
+    },
+    {
+        "codigo": "HKK14",
+        "numero": "015",
+        "modelo": "Track Manga (2nd Color)",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": false
+        },
+        "serie": "1/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/7/78/HKK14.jpg",
+        "categoria": "Tuning"
+    },
+    {
+        "codigo": "HKK15",
+        "numero": "015",
+        "modelo": "Track Manga (3rd Color)",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": false
+        },
+        "serie": "1/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/3/37/Track_Manga_(Dark_Red).jpg",
+        "categoria": "Tuning"
+    },
+    {
+        "codigo": "HKK16",
+        "numero": "016",
+        "modelo": "70s Van (3rd Color)",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": false
+        },
+        "serie": "2/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/0/05/HKK16.jpg",
+        "categoria": "Vintage"
+    },
+    {
+        "codigo": "HKK79",
+        "numero": "024",
+        "modelo": "Surfin' School Bus (2nd Color)",
+        "coleccion": {
+            "nombre": "Surf's Up",
+            "tipo": "surf",
+            "nuevo": false
+        },
+        "serie": "1/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/a/ae/HKK79.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HKJ49",
+        "numero": "032",
+        "modelo": "Rodger Dodger",
+        "coleccion": {
+            "nombre": "HW Dream Garage",
+            "tipo": "dream-garage",
+            "nuevo": false
+        },
+        "serie": "2/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/8/83/HKJ49.jpg",
+        "categoria": "Hot Rods"
+    },
+    {
+        "codigo": "HKK17",
+        "numero": "036",
+        "modelo": "Custom '11 Camaro (2nd Color)",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": false
+        },
+        "serie": "4/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/4/46/036_250.jpg",
+        "categoria": "Muscle Cars"
+    },
+    {
+        "codigo": "HKK38",
+        "numero": "039",
+        "modelo": "Turbine Sublime (2nd Color)",
+        "coleccion": {
+            "nombre": "HW 55 Race Team",
+            "tipo": "race-team",
+            "nuevo": false
+        },
+        "serie": "1/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/5/5b/Turbine_Sublime_HKK38.jpg",
+        "categoria": "Concept Cars"
+    },
+    {
+        "codigo": "HKJ33",
+        "numero": "049",
+        "modelo": "Kool Kombi",
+        "coleccion": {
+            "nombre": "Surf's Up",
+            "tipo": "surf",
+            "nuevo": false
+        },
+        "serie": "2/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/3/3f/HKJ33.jpg",
+        "categoria": "Vintage"
+    },
+    {
+        "codigo": "HKJ69",
+        "numero": "054",
+        "modelo": "Dodge Charger Drift (3rd Color)",
+        "coleccion": {
+            "nombre": "HW Metro",
+            "tipo": "metro",
+            "nuevo": false
+        },
+        "serie": "2/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/6/6a/HKJ69.jpg",
+        "categoria": "Drift"
+    },
+    {
+        "codigo": "HKJ73",
+        "numero": "055",
+        "modelo": "Batman Forever Batmobile (2nd Color)",
+        "coleccion": {
+            "nombre": "Batman",
+            "tipo": "batman",
+            "nuevo": true
+        },
+        "serie": "2/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/c/c6/HKJ73.jpg",
+        "categoria": "Entretenimiento",
+        "notas": "Edición especial de colección"
+    },
+    {
+        "codigo": "HKJ95",
+        "numero": "060",
+        "modelo": "Bone Shaker (2nd Color)",
+        "coleccion": {
+            "nombre": "HW Dream Garage",
+            "tipo": "dream-garage",
+            "nuevo": false
+        },
+        "serie": "3/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/a/a3/Mainline_2023_Bone_Shaker_Dark_Red_Malaysia_HKJ95.jpg",
+        "categoria": "Hot Rods"
+    },
+    {
+        "codigo": "HKK18",
+        "numero": "064",
+        "modelo": "Hot Wheels Ford Transit Connect (2nd Color)",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": false
+        },
+        "serie": "6/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/d/dc/HKK18.jpg",
+        "categoria": "Vans"
+    },
+    {
+        "codigo": "HKH52",
+        "numero": "065",
+        "modelo": "'76 Greenwood Corvette",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": false
+        },
+        "serie": "7/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/5/57/HKH52.jpg",
+        "categoria": "Racing"
+    },
+    {
+        "codigo": "HKK28",
+        "numero": "066",
+        "modelo": "Dodge Van (2nd Color)",
+        "coleccion": {
+            "nombre": "HW 55 Race Team",
+            "tipo": "race-team",
+            "nuevo": false
+        },
+        "serie": "2/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/6/6f/066_-_Dodge_Van_(White).jpg",
+        "categoria": "Vans"
+    },
+    {
+        "codigo": "HKK81",
+        "numero": "071",
+        "modelo": "Deora III (2nd Color)",
+        "coleccion": {
+            "nombre": "Surf's Up",
+            "tipo": "surf",
+            "nuevo": false
+        },
+        "serie": "4/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/4/4d/20230529_100340.jpg",
+        "categoria": "Concept Trucks"
+    },
+    {
+        "codigo": "HKK29",
+        "numero": "086",
+        "modelo": "Erikenstein Rod (2nd Color)",
+        "coleccion": {
+            "nombre": "HW 55 Race Team",
+            "tipo": "race-team",
+            "nuevo": false
+        },
+        "serie": "3/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/a/a4/HKK29.jpg",
+        "categoria": "Hot Rods"
+    },
+    {
+        "codigo": "HKK58",
+        "numero": "116",
+        "modelo": "GMC Hummer EV (3rd Color)",
+        "coleccion": {
+            "nombre": "HW Hot Trucks",
+            "tipo": "hot-trucks",
+            "nuevo": false
+        },
+        "serie": "3/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/d/d9/HKK58.jpg",
+        "categoria": "Trucks",
+        "notas": "Modelo eléctrico moderno"
+    },
+    {
+        "codigo": "HKJ35",
+        "numero": "122",
+        "modelo": "Surf 'N Turf",
+        "coleccion": {
+            "nombre": "Surf's Up",
+            "tipo": "surf",
+            "nuevo": false
+        },
+        "serie": "5/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b4/HKJ35.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HKG98",
+        "numero": "137",
+        "modelo": "Batmobile",
+        "coleccion": {
+            "nombre": "Batman",
+            "tipo": "batman",
+            "nuevo": false
+        },
+        "serie": "4/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/d/d6/HKG98.jpg",
+        "categoria": "Entretenimiento"
+    },
+    {
+        "codigo": "HKH53",
+        "numero": "142",
+        "modelo": "'72 Ford Ranchero",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": false
+        },
+        "serie": "9/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/a/a9/HKH53.jpg",
+        "categoria": "Muscle Cars"
+    },
+    {
+        "codigo": "HKK19",
+        "numero": "157",
+        "modelo": "Cloak and Dagger (2nd Color)",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": false
+        },
+        "serie": "10/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/9/9c/CLOAK_AND_DAGGER_(WHITE).PNG",
+        "categoria": "Concept Cars"
+    },
+    {
+        "codigo": "HKG50",
+        "numero": "159",
+        "modelo": "HW-4-TRAC",
+        "coleccion": {
+            "nombre": "HW 55 Race Team",
+            "tipo": "race-team",
+            "nuevo": true
+        },
+        "serie": "5/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/4/47/HKG50.jpg",
+        "categoria": "Racing",
+        "notas": "Nuevo molde para 2023"
+    },
+    {
+        "codigo": "HKH00",
+        "numero": "169",
+        "modelo": "Batman: The Animated Series",
+        "coleccion": {
+            "nombre": "Batman",
+            "tipo": "batman",
+            "nuevo": false
+        },
+        "serie": "5/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/bc/20230529_100058.jpg",
+        "categoria": "Entretenimiento"
+    },
+    {
+        "codigo": "HKJ76",
+        "numero": "169",
+        "modelo": "Batman: The Animated Series (2nd Color)",
+        "coleccion": {
+            "nombre": "Batman",
+            "tipo": "batman",
+            "nuevo": false
+        },
+        "serie": "5/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/5/54/HKJ76.jpg",
+        "categoria": "Entretenimiento"
+    },
+    {
+        "codigo": "HKH64",
+        "numero": "174",
+        "modelo": "'62 Corvette Gasser",
+        "coleccion": {
+            "nombre": "HW Gassers",
+            "tipo": "gassers",
+            "nuevo": false
+        },
+        "serie": "3/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/8/81/HKH64.jpg",
+        "categoria": "Gassers"
+    },
+    {
+        "codigo": "HKK06",
+        "numero": "186",
+        "modelo": "HW Poppa Wheelie (2nd Color)",
+        "coleccion": {
+            "nombre": "HW Drag Strip",
+            "tipo": "drag-strip",
+            "nuevo": false
+        },
+        "serie": "8/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/3/3b/HW_Poppa_Wheelie_Metalflake_Grey.jpg",
+        "categoria": "Dragsters"
+    },
+    {
+        "codigo": "HKK56",
+        "numero": "188",
+        "modelo": "Koenigsegg Gemera (2nd Color)",
+        "coleccion": {
+            "nombre": "HW Exotics",
+            "tipo": "exotics",
+            "nuevo": false
+        },
+        "serie": "4/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/3/3e/HKK56.jpg",
+        "categoria": "Hypercars"
+    },
+    {
+        "codigo": "HKK59",
+        "numero": "189",
+        "modelo": "Power Panel (2nd Color)",
+        "coleccion": {
+            "nombre": "HW Hot Trucks",
+            "tipo": "hot-trucks",
+            "nuevo": false
+        },
+        "serie": "5/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/c/cf/Power_Panel_HKK59.jpg",
+        "categoria": "Trucks"
+    },
+    {
+        "codigo": "HKK60",
+        "numero": "190",
+        "modelo": "Limited Grip (2nd Color)",
+        "coleccion": {
+            "nombre": "HW Hot Trucks",
+            "tipo": "hot-trucks",
+            "nuevo": true
+        },
+        "serie": "6/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/f/f1/HKK60.jpg",
+        "categoria": "Trucks"
+    },
+    {
+        "codigo": "HKH62",
+        "numero": "199",
+        "modelo": "'65 Mercury Comet Cyclone",
+        "coleccion": {
+            "nombre": "HW Gassers",
+            "tipo": "gassers",
+            "nuevo": true
+        },
+        "serie": "4/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b4/Mainline_2023_'65_Mercury_Comet_Cyclone_Black_Malaysia_HKH62.jpg",
+        "categoria": "Gassers"
+    },
+    {
+        "codigo": "HKH71",
+        "numero": "200",
+        "modelo": "Jack Hammer",
+        "coleccion": {
+            "nombre": "HW Wagons",
+            "tipo": "wagons",
+            "nuevo": true
+        },
+        "serie": "2/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/9/92/HKH71.jpg",
+        "categoria": "Wagons"
+    },
+    {
+        "codigo": "HKG58",
+        "numero": "209",
+        "modelo": "Mad Mike Drift Attack",
+        "coleccion": {
+            "nombre": "HW Exotics",
+            "tipo": "exotics",
+            "nuevo": true
+        },
+        "serie": "5/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/d/df/HKG58.jpg",
+        "categoria": "Drift",
+        "notas": "Edición especial del piloto Mad Mike"
+    },
+    {
+        "codigo": "HKH70",
+        "numero": "222",
+        "modelo": "'64 Chevy Nova Wagon",
+        "coleccion": {
+            "nombre": "HW Wagons",
+            "tipo": "wagons",
+            "nuevo": false
+        },
+        "serie": "3/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/a/aa/HKH70.jpg",
+        "categoria": "Wagons"
+    },
+    {
+        "codigo": "HKJ08",
+        "numero": "237",
+        "modelo": "Layin' Lowrider",
+        "coleccion": {
+            "nombre": "HW Slammed",
+            "tipo": "slammed",
+            "nuevo": false
+        },
+        "serie": "3/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/1/18/HKJ08.jpg",
+        "categoria": "Lowriders"
+    },
+    {
+        "codigo": "HKH73",
+        "numero": "243",
+        "modelo": "Classic '55 Nomad",
+        "coleccion": {
+            "nombre": "HW Wagons",
+            "tipo": "wagons",
+            "nuevo": false
+        },
+        "serie": "5/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/2/2e/HKH73.jpg",
+        "categoria": "Wagons"
+    },
+    {
+        "codigo": "HKJ07",
+        "numero": "245",
+        "modelo": "Volvo 240 Drift Wagon",
+        "coleccion": {
+            "nombre": "HW Slammed",
+            "tipo": "slammed",
+            "nuevo": false
+        },
+        "serie": "4/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/2/26/Mainline_2023_Volvo_240_Drift_Wagon_Green_Super_Hunt_Malaysia_HKL19.jpg",
+        "categoria": "Drift",
+        "notas": "Posible Super Treasure Hunt"
+    },
+    {
+        "codigo": "HKJ09",
+        "numero": "246",
+        "modelo": "'64 Lincoln Continental",
+        "coleccion": {
+            "nombre": "HW Slammed",
+            "tipo": "slammed",
+            "nuevo": false
+        },
+        "serie": "5/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/f/f3/HKJ09.jpg",
+        "categoria": "Lowriders"
+    },
+    {
+        "codigo": "HKJ24",
+        "numero": "247",
+        "modelo": "Heavy Hitcher",
+        "coleccion": {
+            "nombre": "HW Rescue",
+            "tipo": "rescue",
+            "nuevo": false
+        },
+        "serie": "9/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/4/4a/HKJ24.jpg",
+        "categoria": "Emergency"
+    },
+    {
+        "codigo": "HKJ25",
+        "numero": "248",
+        "modelo": "Mad Manga",
+        "coleccion": {
+            "nombre": "HW Rescue",
+            "tipo": "rescue",
+            "nuevo": false
+        },
+        "serie": "10/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b4/HKJ25.jpg",
+        "categoria": "Tuning"
+    },
+    {
+        "codigo": "HKG70",
+        "numero": "250",
+        "modelo": "McLaren Solus GT",
+        "coleccion": {
+            "nombre": "HW Exotics",
+            "tipo": "exotics",
+            "nuevo": true
+        },
+        "serie": "10/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/3/3d/HKG70.jpg",
+        "categoria": "Hypercars"
+    }
+]

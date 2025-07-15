@@ -1,0 +1,574 @@
+[
+    {
+        "codigo": "HRY51",
+        "numero": "001",
+        "modelo": "Mazda Autozam",
+        "coleccion": {
+            "nombre": "HW Dream Garage",
+            "tipo": "dream-garage",
+            "nuevo": false
+        },
+        "serie": "3/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/8/8b/Mainline_2024_Mazda_Autozam_White_Malaysia_HRY51.jpg",
+        "categoria": "Clásicos"
+    },
+    {
+        "codigo": "HTB21",
+        "numero": "002",
+        "modelo": "Batmobile",
+        "coleccion": {
+            "nombre": "Batman",
+            "tipo": "batman",
+            "nuevo": false
+        },
+        "serie": "1/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/d/d3/HTB21.jpg",
+        "categoria": "Películas"
+    },
+    {
+        "codigo": "HTB42",
+        "numero": "005",
+        "modelo": "Hot Wheels High",
+        "coleccion": {
+            "nombre": "HW Fast Transit",
+            "tipo": "fast-transit",
+            "nuevo": false
+        },
+        "serie": "1/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/e3/HTB42.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HTB49",
+        "numero": "006",
+        "modelo": "Custom Otto",
+        "coleccion": {
+            "nombre": "HW Dream Garage",
+            "tipo": "dream-garage",
+            "nuevo": false
+        },
+        "serie": "1/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/3/35/HTB49.jpg",
+        "categoria": "Clásicos modificados"
+    },
+    {
+        "codigo": "HTB56",
+        "numero": "007",
+        "modelo": "'15 Dodge Charger SRT",
+        "coleccion": {
+            "nombre": "HW First Response",
+            "tipo": "first-response",
+            "nuevo": false
+        },
+        "serie": "1/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/5/54/HTB56.jpg",
+        "categoria": "Modernos"
+    },
+    {
+        "codigo": "HTB57",
+        "numero": "009",
+        "modelo": "Runway Res-Q",
+        "coleccion": {
+            "nombre": "HW First Response",
+            "tipo": "first-response",
+            "nuevo": false
+        },
+        "serie": "3/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/e2/Runway_Res-Q_HTB57.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HTB64",
+        "numero": "010",
+        "modelo": "Mod Speeder",
+        "coleccion": {
+            "nombre": "HW Modified",
+            "tipo": "modified",
+            "nuevo": false
+        },
+        "serie": "1/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/0/0e/HTB64_carded.jpg",
+        "categoria": "Clásicos modificados"
+    },
+    {
+        "codigo": "HTB67",
+        "numero": "011",
+        "modelo": "'76 Greenwood Corvette",
+        "coleccion": {
+            "nombre": "HW Modified",
+            "tipo": "modified",
+            "nuevo": false
+        },
+        "serie": "2/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/c/cd/IMAG1207(23638).jpg",
+        "categoria": "Clásicos modificados"
+    },
+    {
+        "codigo": "HTC51",
+        "numero": "012",
+        "modelo": "Ford GT40",
+        "coleccion": {
+            "nombre": "Factory Fresh",
+            "tipo": "factory-fresh",
+            "nuevo": false
+        },
+        "serie": "2/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/8/8d/20204_A_case_ford_GT40_Mkiv.png",
+        "categoria": "Clásicos"
+    },
+    {
+        "codigo": "HTC01",
+        "numero": "018",
+        "modelo": "Shark Bite",
+        "coleccion": {
+            "nombre": "HW Mega Bite",
+            "tipo": "mega-bite",
+            "nuevo": false
+        },
+        "serie": "1/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/6/66/Screenshot_6.png",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HTC12",
+        "numero": "019",
+        "modelo": "Max Steel",
+        "coleccion": {
+            "nombre": "HW Roadsters",
+            "tipo": "roadsters",
+            "nuevo": false
+        },
+        "serie": "1/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/c/cd/Mainline_2024_Max_Steel_MF_Red_Malaysia_HTC12.jpg",
+        "categoria": "Modernos"
+    },
+    {
+        "codigo": "HTC96",
+        "numero": "021",
+        "modelo": "Mighty K (3rd Color)",
+        "coleccion": {
+            "nombre": "Compact Kings",
+            "tipo": "compact-kings",
+            "nuevo": false
+        },
+        "serie": "1/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/2/2b/Mainline_2024_Mighty_K_Light_Yellow_Malaysia_HTC96.jpg",
+        "categoria": "Modernos"
+    },
+    {
+        "codigo": "HTC18",
+        "numero": "022",
+        "modelo": "Fiat 500e",
+        "coleccion": {
+            "nombre": "Compact Kings",
+            "tipo": "compact-kings",
+            "nuevo": false
+        },
+        "serie": "2/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b4/Fiat_500e_-_2024_-_Compact_Kings_-_Gray.jpg",
+        "categoria": "Modernos"
+    },
+    {
+        "codigo": "HRY48",
+        "numero": "026",
+        "modelo": "Punk Rod",
+        "coleccion": {
+            "nombre": "Rod Squad",
+            "tipo": "rod-squad",
+            "nuevo": false
+        },
+        "serie": "1/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/5/5b/Mainline_2024_Punk_Rod_Matte_Black_Malaysia_HRY48.jpg",
+        "categoria": "Clásicos modificados"
+    },
+    {
+        "codigo": "HTB50",
+        "numero": "032",
+        "modelo": "'18 Camaro SS",
+        "coleccion": {
+            "nombre": "HW Dream Garage",
+            "tipo": "dream-garage",
+            "nuevo": false
+        },
+        "serie": "2/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/be/Mainline_2024_'18_Camaro_SS_Black_Malaysia_HTB50.jpg",
+        "categoria": "Modernos"
+    },
+    {
+        "codigo": "HTB58",
+        "numero": "033",
+        "modelo": "Humvee",
+        "coleccion": {
+            "nombre": "HW First Response",
+            "tipo": "first-response",
+            "nuevo": false
+        },
+        "serie": "4/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/d/da/Humvee_HW_2024_3rd_color.jpg",
+        "categoria": "Modernos"
+    },
+    {
+        "codigo": "HRY96",
+        "numero": "052",
+        "modelo": "Knight Draggin'",
+        "coleccion": {
+            "nombre": "HW Celebration Racers",
+            "tipo": "celebration",
+            "nuevo": false
+        },
+        "serie": "2/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/f/ff/Mainline_2024_Knight_Draggin'_Red_Malaysia_HRY96.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HRY54",
+        "numero": "054",
+        "modelo": "Batman & Robin Batmobile",
+        "coleccion": {
+            "nombre": "Batman",
+            "tipo": "batman",
+            "nuevo": false
+        },
+        "serie": "2/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/6/6c/Mainline_2024_Batman_%26_Robin_Batmobile_Black_Malaysia_HRY54.jpg",
+        "categoria": "Películas"
+    },
+    {
+        "codigo": "HTD51",
+        "numero": "054",
+        "modelo": "Batman & Robin Batmobile (2nd Color)",
+        "coleccion": {
+            "nombre": "Batman",
+            "tipo": "batman",
+            "nuevo": false
+        },
+        "serie": "2/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/6/66/Mainline_2024_Batman_%26_Robin_Batmobile_Midnight_Blue_Malaysia_HTD51.jpg",
+        "categoria": "Películas"
+    },
+    {
+        "codigo": "HTB71",
+        "numero": "061",
+        "modelo": "Mod Rod",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": false
+        },
+        "serie": "1/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/7/77/Mod_Rod_-_2024_-_HW_Art_Cars_-_HTB71.jpg",
+        "categoria": "Clásicos modificados"
+    },
+    {
+        "codigo": "HTB98",
+        "numero": "064",
+        "modelo": "Wheelie Chair",
+        "coleccion": {
+            "nombre": "HW Xtreme Sports",
+            "tipo": "xtreme-sports",
+            "nuevo": false
+        },
+        "serie": "3/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/d/dc/Wheelchair2024.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HTC03",
+        "numero": "066",
+        "modelo": "Hotweiler",
+        "coleccion": {
+            "nombre": "HW Mega Bite",
+            "tipo": "mega-bite",
+            "nuevo": false
+        },
+        "serie": "3/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/5/5a/Mainline_2024_Hotweiler_Light_Blue_Malaysia_HTC03.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HTB72",
+        "numero": "083",
+        "modelo": "'67 Chevy C10",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": false
+        },
+        "serie": "2/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/4/45/Mainline_2024_'67_Chevy_C10_Tan-Brown_Malaysia_HTB72.jpg",
+        "categoria": "Clásicos modificados"
+    },
+    {
+        "codigo": "HTB74",
+        "numero": "084",
+        "modelo": "'67 Camaro",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": true
+        },
+        "serie": "3/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/c/cc/Mainline_2024_'67_Camaro_Dark_Blue_Malaysia_HTB74.jpg",
+        "categoria": "Clásicos modificados"
+    },
+    {
+        "codigo": "HTC04",
+        "numero": "087",
+        "modelo": "Piranha Terror",
+        "coleccion": {
+            "nombre": "HW Mega Bite",
+            "tipo": "mega-bite",
+            "nuevo": false
+        },
+        "serie": "4/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/3/3f/Mainline_2024_Piranha_Terror_Teal_Malaysia_HTC04.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HTF00",
+        "numero": "091",
+        "modelo": "'73 Jeep J10 (2nd Color)",
+        "coleccion": {
+            "nombre": "HW Hot Trucks",
+            "tipo": "hot-trucks",
+            "nuevo": false
+        },
+        "serie": "4/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/e5/Mainline_2024_'73_Jeep_J10_White_Malaysia_HTF00.jpg",
+        "categoria": "Clásicos"
+    },
+    {
+        "codigo": "HTD36",
+        "numero": "105",
+        "modelo": "Surf Duty (2nd Color)",
+        "coleccion": {
+            "nombre": "HW Metro",
+            "tipo": "metro",
+            "nuevo": false
+        },
+        "serie": "2/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/3/30/Redsurfduty.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HTB76",
+        "numero": "108",
+        "modelo": "'70 Dodge Charger R/T",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": false
+        },
+        "serie": "4/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/e3/Mainline_2024_'70_Dodge_Charger_R-T_Yellow_Malaysia_HTB76.jpg",
+        "categoria": "Clásicos modificados"
+    },
+    {
+        "codigo": "HTB73",
+        "numero": "112",
+        "modelo": "Mustang Funny Car",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": false
+        },
+        "serie": "5/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/9/98/Mainline_2024_Mustang_Funny_Car_White_Malaysia_HTB73.jpg",
+        "categoria": "Clásicos modificados"
+    },
+    {
+        "codigo": "HTB91",
+        "numero": "113",
+        "modelo": "Layin' Lowrider",
+        "coleccion": {
+            "nombre": "HW Reverse Rake",
+            "tipo": "reverse-rake",
+            "nuevo": false
+        },
+        "serie": "3/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/a/a4/Mainline_2024_Layin'_Lowrider_MF_Black_Malaysia_HTB91.jpg",
+        "categoria": "Clásicos modificados"
+    },
+    {
+        "codigo": "HTC09",
+        "numero": "115",
+        "modelo": "Baja Truck",
+        "coleccion": {
+            "nombre": "Hot Wheels Let's Race",
+            "tipo": "lets-race",
+            "nuevo": false
+        },
+        "serie": "3/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/9/98/Mainline_2024_Baja_Truck_Dark_Blue_Malaysia_HTC09.jpg",
+        "categoria": "Modernos"
+    },
+    {
+        "codigo": "HTC39",
+        "numero": "119",
+        "modelo": "Tanknator",
+        "coleccion": {
+            "nombre": "HW Ride-Ons",
+            "tipo": "ride-ons",
+            "nuevo": false
+        },
+        "serie": "3/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/0/09/Mainline_2024_Tanknator_Dark_Green_Malaysia_HTC39.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HTD56",
+        "numero": "121",
+        "modelo": "'57 Chevy (2nd Color)",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": false
+        },
+        "serie": "6/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/2/21/Mainline_2024_'57_Chevy_MF_Mint_Green_Malaysia_HTD56.jpg",
+        "categoria": "Clásicos modificados"
+    },
+    {
+        "codigo": "HTC34",
+        "numero": "132",
+        "modelo": "'71 El Camino",
+        "coleccion": {
+            "nombre": "HW Hot Trucks",
+            "tipo": "hot-trucks",
+            "nuevo": false
+        },
+        "serie": "7/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/6/68/Mainline_2024_'71_El_Camino_Purple_Malaysia_HTC34.jpg",
+        "categoria": "Clásicos"
+    },
+    {
+        "codigo": "HTD66",
+        "numero": "143",
+        "modelo": "Hirohata Merc (2nd Color)",
+        "coleccion": {
+            "nombre": "Rod Squad",
+            "tipo": "rod-squad",
+            "nuevo": false
+        },
+        "serie": "5/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/a/ae/Mainline_2024_Hirohata_Merc_Apple_Green_Malaysia_HTD66.jpg",
+        "categoria": "Clásicos modificados"
+    },
+    {
+        "codigo": "HRY72",
+        "numero": "146",
+        "modelo": "Birthday Burner",
+        "coleccion": {
+            "nombre": "HW Celebration Racers",
+            "tipo": "celebration",
+            "nuevo": false
+        },
+        "serie": "8/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/1/19/Mainline_2024_Birthday_Burner_Brown_Malaysia_HRY72.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HTB18",
+        "numero": "148",
+        "modelo": "Propper Chopper",
+        "coleccion": {
+            "nombre": "HW Metro",
+            "tipo": "metro",
+            "nuevo": false
+        },
+        "serie": "6/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/a/ae/Mainline_2024_Propper_Chopper_Yellow_Malaysia_HTB18.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HTB19",
+        "numero": "160",
+        "modelo": "Total Disposal",
+        "coleccion": {
+            "nombre": "HW Metro",
+            "tipo": "metro",
+            "nuevo": false
+        },
+        "serie": "8/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/e1/Mainline_2024_Total_Disposal_White_Malaysia_HTB19.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HRY82",
+        "numero": "164",
+        "modelo": "Mailed It!",
+        "coleccion": {
+            "nombre": "HW Art Cars",
+            "tipo": "art-cars",
+            "nuevo": false
+        },
+        "serie": "10/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/f/f2/Mainline_2024_Mailed_It!_MF_Dark_Blue_Malaysia_HRY82.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HTB24",
+        "numero": "178",
+        "modelo": "Mercedes-Benz Unimog 1300L",
+        "coleccion": {
+            "nombre": "HW Dirt",
+            "tipo": "dirt",
+            "nuevo": false
+        },
+        "serie": "1/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/d/d9/Mainline_2024_Mercedes-Benz_Unimog_1300L_MF_Green_Malaysia_HTB24.jpg",
+        "categoria": "Modernos"
+    },
+    {
+        "codigo": "HRY84",
+        "numero": "187",
+        "modelo": "Kowloon'd Hypervan",
+        "coleccion": {
+            "nombre": "HW Metro",
+            "tipo": "metro",
+            "nuevo": false
+        },
+        "serie": "10/10",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/7/71/Mainline_2024_Kowloon'd_Hypervan_Tan_%26_Green_Malaysia_HRY84.jpg",
+        "categoria": "Fantasy"
+    },
+    {
+        "codigo": "HRY85",
+        "numero": "213",
+        "modelo": "Nissan Skyline 2000GT-R LBWK",
+        "coleccion": {
+            "nombre": "Tooned",
+            "tipo": "tooned",
+            "nuevo": false
+        },
+        "serie": "3/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/0/03/'ToonedKenmeri.jpg",
+        "categoria": "Tooned"
+    },
+    {
+        "codigo": "HTB54",
+        "numero": "215",
+        "modelo": "'49 Drag Merc",
+        "coleccion": {
+            "nombre": "HW Rolling Metal",
+            "tipo": "rolling-metal",
+            "nuevo": false
+        },
+        "serie": "2/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/be/Mainline_2024_'49_Drag_Merc_ZAMAC_Malaysia_HTB54.jpg",
+        "categoria": "Clásicos modificados"
+    },
+    {
+        "codigo": "HTF26",
+        "numero": "216",
+        "modelo": "Hot Wheels Ford Transit Connect",
+        "coleccion": {
+            "nombre": "HW Vans Treasure Hunt",
+            "tipo": "treasure-hunt",
+            "nuevo": false
+        },
+        "serie": "3/5",
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/f/f3/FordTransitFlowerVan.jpg",
+        "categoria": "Modernos"
+    }
+]

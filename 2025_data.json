@@ -1,0 +1,114 @@
+[
+    {
+        "codigo": "HYW74",
+        "numero": "021",
+        "modelo": "'67 Chevy C10",
+        "coleccion": {
+            "nombre": "HW Hot Trucks",
+            "tipo": "hot-trucks",
+            "nuevo": false
+        },
+        "serie": "2/10",
+        "precio_estimado": 1.20,
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/4/40/Mainline_2025_%2767_Chevy_C10_Cyan_Malaysia_HWY74.jpg",
+        "categoria": "Pickups clásicas"
+    },
+    {
+        "codigo": "HYW80",
+        "numero": "027",
+        "modelo": "Twin Mill Gen-E",
+        "coleccion": {
+            "nombre": "HW Celebration Racers",
+            "tipo": "celebration",
+            "nuevo": true
+        },
+        "serie": "1/10",
+        "precio_estimado": 1.50,
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/6/68/Mainline_2025_Twin_Mill_Gen-E_Green_Malaysia_HYW80.jpg",
+        "categoria": "Concept cars"
+    },
+    {
+        "codigo": "HYW84",
+        "numero": "031",
+        "modelo": "X-34 Landspeeder",
+        "coleccion": {
+            "nombre": "HW Screen Time",
+            "tipo": "screen-time",
+            "nuevo": false
+        },
+        "serie": "4/10",
+        "precio_estimado": 2.50,
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/bd/HCT60.jpg",
+        "categoria": "Películas"
+    },
+    {
+        "codigo": "JBC21",
+        "numero": "032",
+        "modelo": "Fish'd & Chip'd",
+        "coleccion": {
+            "nombre": "HW Treasure Hunt",
+            "tipo": "treasure-hunt",
+            "nuevo": true
+        },
+        "serie": "2/5",
+        "precio_estimado": 3.00,
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/4/49/Mainline_2025_Treasure_Hunt_Fish'd_%26_Chip'd_Brown_Malaysia_JBC21.jpg",
+        "categoria": "Edición especial"
+    },
+    {
+        "codigo": "HYW85",
+        "numero": "033",
+        "modelo": "Fiat 500e",
+        "coleccion": {
+            "nombre": "HW EV",
+            "tipo": "ev",
+            "nuevo": true
+        },
+        "serie": "3/10",
+        "precio_estimado": 1.20,
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/d/d6/2019Fiat500e.jpg",
+        "categoria": "Eléctricos"
+    },
+    {
+        "codigo": "HYW91",
+        "numero": "039",
+        "modelo": "2020 Ram 1500 Rebel",
+        "coleccion": {
+            "nombre": "HW First Response",
+            "tipo": "first-response",
+            "nuevo": false
+        },
+        "serie": "3/5",
+        "precio_estimado": 1.20,
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/8/83/Mainline_2025_2020_Ram_1500_Rebel_White_Malaysia_HYW91.jpg",
+        "categoria": "Vehículos de emergencia"
+    },
+    {
+        "codigo": "HYW98",
+        "numero": "047",
+        "modelo": "Mazda REPU",
+        "coleccion": {
+            "nombre": "HW J-Imports",
+            "tipo": "j-imports",
+            "nuevo": true
+        },
+        "serie": "2/5",
+        "precio_estimado": 1.50,
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/4/49/Mainline_2025_Mazda_Repu_Tan_Malaysia_HYW98.jpg",
+        "categoria": "JDM clásicos"
+    },
+    {
+        "codigo": "HYX00",
+        "numero": "049",
+        "modelo": "'22 Ford Maverick Custom",
+        "coleccion": {
+            "nombre": "HW Modified",
+            "tipo": "modified",
+            "nuevo": false
+        },
+        "serie": "1/5",
+        "precio_estimado": 1.50,
+        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/d/d8/Mainline_2025_'22_Ford_Maverick_Custom_Dark_Yellow_Malaysia_HYX00.jpg",
+        "categoria": "Tuners modernos"
+    }
+]

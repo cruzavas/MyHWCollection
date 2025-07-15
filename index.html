@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
@@ -42,39 +43,58 @@
     <div class="container">
         <h1>Mi colección de Hot Wheels 2023-2025</h1>
         <h2>Mi top 3 según deepseek</h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card text-white bg-secondary mb-3">
-                    <img class="card-img-top" src="https://static.wikia.nocookie.net/hotwheels/images/c/c6/HKJ73.jpg"
-                        alt="Batman Forever Batmobile">
-                    <div class="card-body">
-                        <p class="card-text">Batman Forever Batmobile (2nd Color)</p>
-                        <span class="collection-tag batman">Batman</span> <span class="new-badge">NEW</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-white bg-secondary mb-3">
-                    <img class="card-img-top"
-                        src="https://static.wikia.nocookie.net/hotwheels/images/f/f3/FordTransitFlowerVan.jpg"
-                        alt="Ford Transit Connect">
-                    <div class="card-body">
-                        <p class="card-text">Hot Wheels Ford Transit Connect</p>
-                        <span class="collection-tag treasure-hunt">HW Vans Treasure Hunt</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-white bg-secondary mb-3">
-                    <img class="card-img-top"
-                        src="https://static.wikia.nocookie.net/hotwheels/images/4/49/Mainline_2025_Treasure_Hunt_Fish'd_%26_Chip'd_Brown_Malaysia_JBC21.jpg"
-                        alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Fish'd & Chip'd</p>
-                        <span class="collection-tag treasure-hunt">HW Treasure Hunt</span>
-                    </div>
-                </div>
-            </div>
+
+        <div class="table-container">
+            <table id="table_top_3" class="display">
+                <thead>
+                    <tr>
+                        <th>Imagen</th>
+                        <th>Modelo</th>
+                        <th>Colección</th>
+                    </tr>
+                </thead>
+                <tbody id="top_3">
+                    <tr>
+                        <td class="image-cell">
+                            <a href="https://static.wikia.nocookie.net/hotwheels/images/c/c6/HKJ73.jpg" target="_blank">
+                                <img src="https://static.wikia.nocookie.net/hotwheels/images/c/c6/HKJ73.jpg"
+                                    alt="Batman Forever Batmobile">
+                            </a>
+                        </td>
+                        <td>Batman Forever Batmobile (2nd Color)</td>
+                        <td>
+                            <span class="collection-tag batman">Batman</span>
+                            <span class="new-badge">NEW</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="image-cell">
+                            <a href="https://static.wikia.nocookie.net/hotwheels/images/f/f3/FordTransitFlowerVan.jpg"
+                                target="_blank">
+                                <img src="https://static.wikia.nocookie.net/hotwheels/images/f/f3/FordTransitFlowerVan.jpg"
+                                    alt="Ford Transit Connect">
+                            </a>
+                        </td>
+                        <td>Hot Wheels Ford Transit Connect</td>
+                        <td>
+                            <span class="collection-tag treasure-hunt">HW Vans Treasure Hunt</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="image-cell">
+                            <a href="https://static.wikia.nocookie.net/hotwheels/images/4/49/Mainline_2025_Treasure_Hunt_Fish'd_%26_Chip'd_Brown_Malaysia_JBC21.jpg"
+                                target="_blank">
+                                <img src="https://static.wikia.nocookie.net/hotwheels/images/4/49/Mainline_2025_Treasure_Hunt_Fish'd_%26_Chip'd_Brown_Malaysia_JBC21.jpg"
+                                    alt="Card image cap">
+                            </a>
+                        </td>
+                        <td>Fish'd & Chip'd</td>
+                        <td>
+                            <span class="collection-tag treasure-hunt">HW Treasure Hunt</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
         <!-- 2023 - Colección Completa -->
@@ -84,483 +104,14 @@
                 <thead>
                     <tr>
                         <th>Código</th>
-                        <th>Núm.</th>
+                        <th>Número</th>
                         <th>Modelo</th>
                         <th>Colección</th>
-                        <th>Escala</th>
+                        <th>Serie</th>
                         <th>Imagen</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>HKJ94</td>
-                        <td>001</td>
-                        <td>Volvo P1800 Gasser (2nd Color)</td>
-                        <td><span class="collection-tag dream-garage">HW Dream Garage</span> <span
-                                class="new-badge">NEW</span></td>
-                        <td>1/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/9/90/HKJ94.jpg"
-                                alt="Volvo P1800 Gasser">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKJ72</td>
-                        <td>003</td>
-                        <td>Classic TV Series Batmobile (2nd Color)</td>
-                        <td><span class="collection-tag batman">Batman</span></td>
-                        <td>1/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/8/8d/HKJ72.jpg"
-                                alt="Classic TV Series Batmobile">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK14</td>
-                        <td>015</td>
-                        <td>Track Manga (2nd Color)</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span></td>
-                        <td>1/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/7/78/HKK14.jpg"
-                                alt="Track Manga">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK15</td>
-                        <td>015</td>
-                        <td>Track Manga (3rd Color)</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span></td>
-                        <td>1/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/3/37/Track_Manga_(Dark_Red).jpg"
-                                alt="Track Manga (Dark Red)">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK16</td>
-                        <td>016</td>
-                        <td>70s Van (3rd Color)</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span></td>
-                        <td>2/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/0/05/HKK16.jpg" alt="70s Van">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK79</td>
-                        <td>024</td>
-                        <td>Surfin' School Bus (2nd Color)</td>
-                        <td><span class="collection-tag surf">Surf's Up</span></td>
-                        <td>1/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/a/ae/HKK79.jpg"
-                                alt="Surfin' School Bus">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKJ49</td>
-                        <td>032</td>
-                        <td>Rodger Dodger</td>
-                        <td><span class="collection-tag dream-garage">HW Dream Garage</span></td>
-                        <td>2/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/8/83/HKJ49.jpg"
-                                alt="Rodger Dodger">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK17</td>
-                        <td>036</td>
-                        <td>Custom '11 Camaro (2nd Color)</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span></td>
-                        <td>4/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/4/46/036_250.jpg"
-                                alt="Custom '11 Camaro">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK38</td>
-                        <td>039</td>
-                        <td>Turbine Sublime (2nd Color)</td>
-                        <td><span class="collection-tag race-team">HW 55 Race Team</span></td>
-                        <td>1/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/5/5b/Turbine_Sublime_HKK38.jpg"
-                                alt="Turbine Sublime">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKJ33</td>
-                        <td>049</td>
-                        <td>Kool Kombi</td>
-                        <td><span class="collection-tag surf">Surf's Up</span></td>
-                        <td>2/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/3/3f/HKJ33.jpg"
-                                alt="Kool Kombi">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKJ69</td>
-                        <td>054</td>
-                        <td>Dodge Charger Drift (3rd Color)</td>
-                        <td><span class="collection-tag metro">HW Metro</span></td>
-                        <td>2/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/6/6a/HKJ69.jpg"
-                                alt="Dodge Charger Drift">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKJ73</td>
-                        <td>055</td>
-                        <td>Batman Forever Batmobile (2nd Color)</td>
-                        <td><span class="collection-tag batman">Batman</span> <span class="new-badge">NEW</span></td>
-                        <td>2/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/c/c6/HKJ73.jpg"
-                                alt="Batman Forever Batmobile">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKJ95</td>
-                        <td>060</td>
-                        <td>Bone Shaker (2nd Color)</td>
-                        <td><span class="collection-tag dream-garage">HW Dream Garage</span></td>
-                        <td>3/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/a/a3/Mainline_2023_Bone_Shaker_Dark_Red_Malaysia_HKJ95.jpg"
-                                alt="Bone Shaker">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK18</td>
-                        <td>064</td>
-                        <td>Hot Wheels Ford Transit Connect (2nd Color)</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span></td>
-                        <td>6/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/d/dc/HKK18.jpg"
-                                alt="Ford Transit Connect">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKH52</td>
-                        <td>065</td>
-                        <td>'76 Greenwood Corvette</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span></td>
-                        <td>7/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/5/57/HKH52.jpg"
-                                alt="'76 Greenwood Corvette">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK28</td>
-                        <td>066</td>
-                        <td>Dodge Van (2nd Color)</td>
-                        <td><span class="collection-tag race-team">HW 55 Race Team</span></td>
-                        <td>2/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/6/6f/066_-_Dodge_Van_(White).jpg"
-                                alt="Dodge Van">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK81</td>
-                        <td>071</td>
-                        <td>Deora III (2nd Color)</td>
-                        <td><span class="collection-tag surf">Surf's Up</span></td>
-                        <td>4/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/4/4d/20230529_100340.jpg"
-                                alt="Deora III">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK29</td>
-                        <td>086</td>
-                        <td>Erikenstein Rod (2nd Color)</td>
-                        <td><span class="collection-tag race-team">HW 55 Race Team</span></td>
-                        <td>3/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/a/a4/HKK29.jpg"
-                                alt="Erikenstein Rod">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK58</td>
-                        <td>116</td>
-                        <td>GMC Hummer EV (3rd Color)</td>
-                        <td><span class="collection-tag hot-trucks">HW Hot Trucks</span></td>
-                        <td>3/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/d/d9/HKK58.jpg"
-                                alt="GMC Hummer EV">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKJ35</td>
-                        <td>122</td>
-                        <td>Surf 'N Turf</td>
-                        <td><span class="collection-tag surf">Surf's Up</span></td>
-                        <td>5/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/b/b4/HKJ35.jpg"
-                                alt="Surf 'N Turf">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKG98</td>
-                        <td>137</td>
-                        <td>Batmobile</td>
-                        <td><span class="collection-tag batman">Batman</span></td>
-                        <td>4/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/d/d6/HKG98.jpg"
-                                alt="Batmobile">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKH53</td>
-                        <td>142</td>
-                        <td>'72 Ford Ranchero</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span></td>
-                        <td>9/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/a/a9/HKH53.jpg"
-                                alt="'72 Ford Ranchero">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK19</td>
-                        <td>157</td>
-                        <td>Cloak and Dagger (2nd Color)</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span></td>
-                        <td>10/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/9/9c/CLOAK_AND_DAGGER_(WHITE).PNG"
-                                alt="Cloak and Dagger">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKG50</td>
-                        <td>159</td>
-                        <td>HW-4-TRAC</td>
-                        <td><span class="collection-tag race-team">HW 55 Race Team</span> <span
-                                class="new-badge">NEW</span>
-                        </td>
-                        <td>5/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/4/47/HKG50.jpg"
-                                alt="HW-4-TRAC">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKH00</td>
-                        <td>169</td>
-                        <td>Batman: The Animated Series</td>
-                        <td><span class="collection-tag batman">Batman</span></td>
-                        <td>5/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/b/bc/20230529_100058.jpg"
-                                alt="Batman: The Animated Series">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKJ76</td>
-                        <td>169</td>
-                        <td>Batman: The Animated Series (2nd Color)</td>
-                        <td><span class="collection-tag batman">Batman</span></td>
-                        <td>5/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/5/54/HKJ76.jpg"
-                                alt="Batman: The Animated Series (2nd Color)">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKH64</td>
-                        <td>174</td>
-                        <td>'62 Corvette Gasser</td>
-                        <td><span class="collection-tag gassers">HW Gassers</span></td>
-                        <td>3/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/8/81/HKH64.jpg"
-                                alt="'62 Corvette Gasser">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK06</td>
-                        <td>186</td>
-                        <td>HW Poppa Wheelie (2nd Color)</td>
-                        <td><span class="collection-tag drag-strip">HW Drag Strip</span></td>
-                        <td>8/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/3/3b/HW_Poppa_Wheelie_Metalflake_Grey.jpg"
-                                alt="HW Poppa Wheelie">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK56</td>
-                        <td>188</td>
-                        <td>Koenigsegg Gemera (2nd Color)</td>
-                        <td><span class="collection-tag exotics">HW Exotics</span></td>
-                        <td>4/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/3/3e/HKK56.jpg"
-                                alt="Koenigsegg Gemera">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK59</td>
-                        <td>189</td>
-                        <td>Power Panel (2nd Color)</td>
-                        <td><span class="collection-tag hot-trucks">HW Hot Trucks</span></td>
-                        <td>5/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/c/cf/Power_Panel_HKK59.jpg"
-                                alt="Power Panel">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKK60</td>
-                        <td>190</td>
-                        <td>Limited Grip (2nd Color)</td>
-                        <td><span class="collection-tag hot-trucks">HW Hot Trucks</span> <span
-                                class="new-badge">NEW</span>
-                        </td>
-                        <td>6/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/f/f1/HKK60.jpg"
-                                alt="Limited Grip">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKH62</td>
-                        <td>199</td>
-                        <td>'65 Mercury Comet Cyclone</td>
-                        <td><span class="collection-tag gassers">HW Gassers</span> <span class="new-badge">NEW</span>
-                        </td>
-                        <td>4/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/b/b4/Mainline_2023_'65_Mercury_Comet_Cyclone_Black_Malaysia_HKH62.jpg"
-                                alt="'65 Mercury Comet Cyclone">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKH71</td>
-                        <td>200</td>
-                        <td>Jack Hammer</td>
-                        <td><span class="collection-tag wagons">HW Wagons</span> <span class="new-badge">NEW</span></td>
-                        <td>2/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/9/92/HKH71.jpg"
-                                alt="Jack Hammer">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKG58</td>
-                        <td>209</td>
-                        <td>Mad Mike Drift Attack</td>
-                        <td><span class="collection-tag exotics">HW Exotics</span> <span class="new-badge">NEW</span>
-                        </td>
-                        <td>5/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/d/df/HKG58.jpg"
-                                alt="Mad Mike Drift Attack">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKH70</td>
-                        <td>222</td>
-                        <td>'64 Chevy Nova Wagon</td>
-                        <td><span class="collection-tag wagons">HW Wagons</span></td>
-                        <td>3/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/a/aa/HKH70.jpg"
-                                alt="'64 Chevy Nova Wagon">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKJ08</td>
-                        <td>237</td>
-                        <td>Layin' Lowrider</td>
-                        <td><span class="collection-tag slammed">HW Slammed</span></td>
-                        <td>3/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/1/18/HKJ08.jpg"
-                                alt="Layin' Lowrider">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKH73</td>
-                        <td>243</td>
-                        <td>Classic '55 Nomad</td>
-                        <td><span class="collection-tag wagons">HW Wagons</span></td>
-                        <td>5/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/2/2e/HKH73.jpg"
-                                alt="Classic '55 Nomad">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKJ07</td>
-                        <td>245</td>
-                        <td>Volvo 240 Drift Wagon</td>
-                        <td><span class="collection-tag slammed">HW Slammed</span></td>
-                        <td>4/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/2/26/Mainline_2023_Volvo_240_Drift_Wagon_Green_Super_Hunt_Malaysia_HKL19.jpg"
-                                alt="Volvo 240 Drift Wagon">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKJ09</td>
-                        <td>246</td>
-                        <td>'64 Lincoln Continental</td>
-                        <td><span class="collection-tag slammed">HW Slammed</span></td>
-                        <td>5/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/f/f3/HKJ09.jpg"
-                                alt="'64 Lincoln Continental">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKJ24</td>
-                        <td>247</td>
-                        <td>Heavy Hitcher</td>
-                        <td><span class="collection-tag rescue">HW Rescue</span></td>
-                        <td>9/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/4/4a/HKJ24.jpg"
-                                alt="Heavy Hitcher">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKJ25</td>
-                        <td>248</td>
-                        <td>Mad Manga</td>
-                        <td><span class="collection-tag rescue">HW Rescue</span></td>
-                        <td>10/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/b/b4/HKJ25.jpg"
-                                alt="Mad Manga">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HKG70</td>
-                        <td>250</td>
-                        <td>McLaren Solus GT</td>
-                        <td><span class="collection-tag exotics">HW Exotics</span> <span class="new-badge">NEW</span>
-                        </td>
-                        <td>10/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/3/3d/HKG70.jpg"
-                                alt="McLaren Solus GT">
-                        </td>
-                    </tr>
+                <tbody id="tbody_2023">
                 </tbody>
             </table>
         </div>
@@ -572,499 +123,14 @@
                 <thead>
                     <tr>
                         <th>Código</th>
-                        <th>Núm.</th>
+                        <th>Número</th>
                         <th>Modelo</th>
                         <th>Colección</th>
-                        <th>Escala</th>
+                        <th>Serie</th>
                         <th>Imagen</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>HRY51</td>
-                        <td>001</td>
-                        <td>Mazda Autozam</td>
-                        <td><span class="collection-tag dream-garage">HW Dream Garage</span></td>
-                        <td>3/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/8/8b/Mainline_2024_Mazda_Autozam_White_Malaysia_HRY51.jpg"
-                                alt="Mazda Autozam">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB21</td>
-                        <td>002</td>
-                        <td>Batmobile</td>
-                        <td><span class="collection-tag batman">Batman</span></td>
-                        <td>1/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/d/d3/HTB21.jpg"
-                                alt="Batmobile 2024">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB42</td>
-                        <td>005</td>
-                        <td>Hot Wheels High</td>
-                        <td><span class="collection-tag fast-transit">HW Fast Transit</span></td>
-                        <td>1/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/e/e3/HTB42.jpg"
-                                alt="Hot Wheels High">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB49</td>
-                        <td>006</td>
-                        <td>Custom Otto</td>
-                        <td><span class="collection-tag dream-garage">HW Dream Garage</span></td>
-                        <td>1/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/3/35/HTB49.jpg"
-                                alt="Custom Otto">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB56</td>
-                        <td>007</td>
-                        <td>'15 Dodge Charger SRT</td>
-                        <td><span class="collection-tag first-response">HW First Response</span></td>
-                        <td>1/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/5/54/HTB56.jpg"
-                                alt="Dodge Charger SRT">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB57</td>
-                        <td>009</td>
-                        <td>Runway Res-Q</td>
-                        <td><span class="collection-tag first-response">HW First Response</span></td>
-                        <td>3/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/e/e2/Runway_Res-Q_HTB57.jpg"
-                                alt="Runway Res-Q">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB64</td>
-                        <td>010</td>
-                        <td>Mod Speeder</td>
-                        <td><span class="collection-tag modified">HW Modified</span></td>
-                        <td>1/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/0/0e/HTB64_carded.jpg"
-                                alt="Mod Speeder">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB67</td>
-                        <td>011</td>
-                        <td>'76 Greenwood Corvette</td>
-                        <td><span class="collection-tag modified">HW Modified</span></td>
-                        <td>2/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/c/cd/IMAG1207(23638).jpg"
-                                alt="'76 Greenwood Corvette">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTC51</td>
-                        <td>012</td>
-                        <td>Ford GT40</td>
-                        <td><span class="collection-tag factory-fresh">Factory Fresh</span></td>
-                        <td>2/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/8/8d/20204_A_case_ford_GT40_Mkiv.png"
-                                alt="Ford GT40">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTC01</td>
-                        <td>018</td>
-                        <td>Shark Bite</td>
-                        <td><span class="collection-tag mega-bite">HW Mega Bite</span></td>
-                        <td>1/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/6/66/Screenshot_6.png"
-                                alt="Shark Bite">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTC12</td>
-                        <td>019</td>
-                        <td>Max Steel</td>
-                        <td><span class="collection-tag roadsters">HW Roadsters</span></td>
-                        <td>1/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/c/cd/Mainline_2024_Max_Steel_MF_Red_Malaysia_HTC12.jpg"
-                                alt="Max Steel">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTC96</td>
-                        <td>021</td>
-                        <td>Mighty K (3rd Color)</td>
-                        <td><span class="collection-tag compact-kings">Compact Kings</span></td>
-                        <td>1/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/2/2b/Mainline_2024_Mighty_K_Light_Yellow_Malaysia_HTC96.jpg"
-                                alt="Mighty K">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTC18</td>
-                        <td>022</td>
-                        <td>Fiat 500e</td>
-                        <td><span class="collection-tag compact-kings">Compact Kings</span></td>
-                        <td>2/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/b/b4/Fiat_500e_-_2024_-_Compact_Kings_-_Gray.jpg"
-                                alt="Fiat 500e">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HRY48</td>
-                        <td>026</td>
-                        <td>Punk Rod</td>
-                        <td><span class="collection-tag rod-squad">Rod Squad</span></td>
-                        <td>1/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/5/5b/Mainline_2024_Punk_Rod_Matte_Black_Malaysia_HRY48.jpg"
-                                alt="Punk Rod">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB50</td>
-                        <td>032</td>
-                        <td>'18 Camaro SS</td>
-                        <td><span class="collection-tag dream-garage">HW Dream Garage</span></td>
-                        <td>2/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/b/be/Mainline_2024_'18_Camaro_SS_Black_Malaysia_HTB50.jpg"
-                                alt="'18 Camaro SS">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB58</td>
-                        <td>033</td>
-                        <td>Humvee</td>
-                        <td><span class="collection-tag first-response">HW First Response</span></td>
-                        <td>4/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/d/da/Humvee_HW_2024_3rd_color.jpg"
-                                alt="Humvee">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HRY96</td>
-                        <td>052</td>
-                        <td>Knight Draggin'</td>
-                        <td><span class="collection-tag celebration">HW Celebration Racers</span></td>
-                        <td>2/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/f/ff/Mainline_2024_Knight_Draggin'_Red_Malaysia_HRY96.jpg"
-                                alt="Knight Draggin'">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HRY54</td>
-                        <td>054</td>
-                        <td>Batman & Robin Batmobile</td>
-                        <td><span class="collection-tag batman">Batman</span></td>
-                        <td>2/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/6/6c/Mainline_2024_Batman_%26_Robin_Batmobile_Black_Malaysia_HRY54.jpg"
-                                alt="Batman & Robin Batmobile">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTD51</td>
-                        <td>054</td>
-                        <td>Batman & Robin Batmobile (2nd Color)</td>
-                        <td><span class="collection-tag batman">Batman</span></td>
-                        <td>2/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/6/66/Mainline_2024_Batman_%26_Robin_Batmobile_Midnight_Blue_Malaysia_HTD51.jpg"
-                                alt="Batman & Robin Batmobile (2nd Color)">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB71</td>
-                        <td>061</td>
-                        <td>Mod Rod</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span></td>
-                        <td>1/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/7/77/Mod_Rod_-_2024_-_HW_Art_Cars_-_HTB71.jpg"
-                                alt="Mod Rod">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB98</td>
-                        <td>064</td>
-                        <td>Wheelie Chair</td>
-                        <td><span class="collection-tag xtreme-sports">HW Xtreme Sports</span></td>
-                        <td>3/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/d/dc/Wheelchair2024.jpg"
-                                alt="Wheelie Chair">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTC03</td>
-                        <td>066</td>
-                        <td>Hotweiler</td>
-                        <td><span class="collection-tag mega-bite">HW Mega Bite</span></td>
-                        <td>3/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/5/5a/Mainline_2024_Hotweiler_Light_Blue_Malaysia_HTC03.jpg"
-                                alt="Hotweiler">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB72</td>
-                        <td>083</td>
-                        <td>'67 Chevy C10</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span></td>
-                        <td>2/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/4/45/Mainline_2024_'67_Chevy_C10_Tan-Brown_Malaysia_HTB72.jpg"
-                                alt="'67 Chevy C10">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB74</td>
-                        <td>084</td>
-                        <td>'67 Camaro</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span> <span class="new-badge">NEW</span>
-                        </td>
-                        <td>3/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/c/cc/Mainline_2024_'67_Camaro_Dark_Blue_Malaysia_HTB74.jpg"
-                                alt="'67 Camaro">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTC04</td>
-                        <td>087</td>
-                        <td>Piranha Terror</td>
-                        <td><span class="collection-tag mega-bite">HW Mega Bite</span></td>
-                        <td>4/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/3/3f/Mainline_2024_Piranha_Terror_Teal_Malaysia_HTC04.jpg"
-                                alt="Piranha Terror">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTF00</td>
-                        <td>091</td>
-                        <td>'73 Jeep J10 (2nd Color)</td>
-                        <td><span class="collection-tag hot-trucks">HW Hot Trucks</span></td>
-                        <td>4/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/e/e5/Mainline_2024_'73_Jeep_J10_White_Malaysia_HTF00.jpg"
-                                alt="'73 Jeep J10">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTD36</td>
-                        <td>105</td>
-                        <td>Surf Duty (2nd Color)</td>
-                        <td><span class="collection-tag metro">HW Metro</span></td>
-                        <td>2/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/3/30/Redsurfduty.jpg"
-                                alt="Surf Duty">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB76</td>
-                        <td>108</td>
-                        <td>'70 Dodge Charger R/T</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span></td>
-                        <td>4/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/e/e3/Mainline_2024_'70_Dodge_Charger_R-T_Yellow_Malaysia_HTB76.jpg"
-                                alt="'70 Dodge Charger R/T">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB73</td>
-                        <td>112</td>
-                        <td>Mustang Funny Car</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span></td>
-                        <td>5/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/9/98/Mainline_2024_Mustang_Funny_Car_White_Malaysia_HTB73.jpg"
-                                alt="Mustang Funny Car">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB91</td>
-                        <td>113</td>
-                        <td>Layin' Lowrider</td>
-                        <td><span class="collection-tag reverse-rake">HW Reverse Rake</span></td>
-                        <td>3/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/a/a4/Mainline_2024_Layin'_Lowrider_MF_Black_Malaysia_HTB91.jpg"
-                                alt="Layin' Lowrider">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTC09</td>
-                        <td>115</td>
-                        <td>Baja Truck</td>
-                        <td><span class="collection-tag lets-race">Hot Wheels Let's Race</span></td>
-                        <td>3/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/9/98/Mainline_2024_Baja_Truck_Dark_Blue_Malaysia_HTC09.jpg"
-                                alt="Baja Truck">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTC39</td>
-                        <td>119</td>
-                        <td>Tanknator</td>
-                        <td><span class="collection-tag ride-ons">HW Ride-Ons</span></td>
-                        <td>3/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/0/09/Mainline_2024_Tanknator_Dark_Green_Malaysia_HTC39.jpg"
-                                alt="Tanknator">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTD56</td>
-                        <td>121</td>
-                        <td>'57 Chevy (2nd Color)</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span></td>
-                        <td>6/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/2/21/Mainline_2024_'57_Chevy_MF_Mint_Green_Malaysia_HTD56.jpg"
-                                alt="'57 Chevy">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTC34</td>
-                        <td>132</td>
-                        <td>'71 El Camino</td>
-                        <td><span class="collection-tag hot-trucks">HW Hot Trucks</span></td>
-                        <td>7/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/6/68/Mainline_2024_'71_El_Camino_Purple_Malaysia_HTC34.jpg"
-                                alt="'71 El Camino">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTD66</td>
-                        <td>143</td>
-                        <td>Hirohata Merc (2nd Color)</td>
-                        <td><span class="collection-tag rod-squad">Rod Squad</span></td>
-                        <td>5/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/a/ae/Mainline_2024_Hirohata_Merc_Apple_Green_Malaysia_HTD66.jpg"
-                                alt="Hirohata Merc">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HRY72</td>
-                        <td>146</td>
-                        <td>Birthday Burner</td>
-                        <td><span class="collection-tag celebration">HW Celebration Racers</span></td>
-                        <td>8/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/1/19/Mainline_2024_Birthday_Burner_Brown_Malaysia_HRY72.jpg"
-                                alt="Birthday Burner">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB18</td>
-                        <td>148</td>
-                        <td>Propper Chopper</td>
-                        <td><span class="collection-tag metro">HW Metro</span></td>
-                        <td>6/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/a/ae/Mainline_2024_Propper_Chopper_Yellow_Malaysia_HTB18.jpg"
-                                alt="Propper Chopper">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB19</td>
-                        <td>160</td>
-                        <td>Total Disposal</td>
-                        <td><span class="collection-tag metro">HW Metro</span></td>
-                        <td>8/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/e/e1/Mainline_2024_Total_Disposal_White_Malaysia_HTB19.jpg"
-                                alt="Total Disposal">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HRY82</td>
-                        <td>164</td>
-                        <td>Mailed It!</td>
-                        <td><span class="collection-tag art-cars">HW Art Cars</span></td>
-                        <td>10/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/f/f2/Mainline_2024_Mailed_It!_MF_Dark_Blue_Malaysia_HRY82.jpg"
-                                alt="Mailed It!">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB24</td>
-                        <td>178</td>
-                        <td>Mercedes-Benz Unimog 1300L</td>
-                        <td><span class="collection-tag dirt">HW Dirt</span></td>
-                        <td>1/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/d/d9/Mainline_2024_Mercedes-Benz_Unimog_1300L_MF_Green_Malaysia_HTB24.jpg"
-                                alt="Mercedes-Benz Unimog 1300L">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HRY84</td>
-                        <td>187</td>
-                        <td>Kowloon'd Hypervan</td>
-                        <td><span class="collection-tag metro">HW Metro</span></td>
-                        <td>10/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/7/71/Mainline_2024_Kowloon'd_Hypervan_Tan_%26_Green_Malaysia_HRY84.jpg"
-                                alt="Kowloon'd Hypervan">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HRY85</td>
-                        <td>213</td>
-                        <td>Nissan Skyline 2000GT-R LBWK</td>
-                        <td><span class="collection-tag tooned">Tooned</span></td>
-                        <td>3/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/0/03/'ToonedKenmeri.jpg"
-                                alt="Nissan Skyline 2000GT-R LBWK">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTB54</td>
-                        <td>215</td>
-                        <td>'49 Drag Merc</td>
-                        <td><span class="collection-tag rolling-metal">HW Rolling Metal</span></td>
-                        <td>2/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/b/be/Mainline_2024_'49_Drag_Merc_ZAMAC_Malaysia_HTB54.jpg"
-                                alt="'49 Drag Merc">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTF26</td>
-                        <td>216</td>
-                        <td>Hot Wheels Ford Transit Connect</td>
-                        <td><span class="collection-tag treasure-hunt">HW Vans Treasure Hunt</span></td>
-                        <td>3/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/f/f3/FordTransitFlowerVan.jpg"
-                                alt="Ford Transit Connect">
-                        </td>
-                    </tr>
+                <tbody id="tbody_2024">
                 </tbody>
             </table>
         </div>
@@ -1076,107 +142,26 @@
                 <thead>
                     <tr>
                         <th>Código</th>
-                        <th>Núm.</th>
+                        <th>Número</th>
                         <th>Modelo</th>
                         <th>Colección</th>
-                        <th>Escala</th>
+                        <th>Serie</th>
                         <th>Imagen</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>HYW74</td>
-                        <td>021</td>
-                        <td>'67 Chevy C10</td>
-                        <td><span class="collection-tag hot-trucks">HW Hot Trucks</span></td>
-                        <td>2/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/4/40/Mainline_2025_%2767_Chevy_C10_Cyan_Malaysia_HWY74.jpg"
-                                alt="'67 Chevy C10">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HYW80</td>
-                        <td>027</td>
-                        <td>Twin Mill Gen-E</td>
-                        <td><span class="collection-tag celebration">HW Celebration Racers</span></td>
-                        <td>1/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/6/68/Mainline_2025_Twin_Mill_Gen-E_Green_Malaysia_HYW80.jpg"
-                                alt="Twin Mill Gen-E">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HYW84</td>
-                        <td>031</td>
-                        <td>X-34 Landspeeder</td>
-                        <td><span class="collection-tag screen-time">HW Screen Time</span></td>
-                        <td>4/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/b/bd/HCT60.jpg"
-                                alt="X-34 Landspeeder">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>JBC21</td>
-                        <td>032</td>
-                        <td>Fish'd & Chip'd</td>
-                        <td><span class="collection-tag treasure-hunt">HW Treasure Hunt</span></td>
-                        <td>2/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/4/49/Mainline_2025_Treasure_Hunt_Fish'd_%26_Chip'd_Brown_Malaysia_JBC21.jpg"
-                                alt="Fish'd & Chip'd">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HYW85</td>
-                        <td>033</td>
-                        <td>Fiat 500e</td>
-                        <td><span class="collection-tag ev">HW EV</span></td>
-                        <td>3/10</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/d/d6/2019Fiat500e.jpg"
-                                alt="Fiat 500e">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HYW91</td>
-                        <td>039</td>
-                        <td>2020 Ram 1500 Rebel</td>
-                        <td><span class="collection-tag first-response">HW First Response</span></td>
-                        <td>3/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/8/83/Mainline_2025_2020_Ram_1500_Rebel_White_Malaysia_HYW91.jpg"
-                                alt="2020 Ram 1500 Rebel">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HYW98</td>
-                        <td>047</td>
-                        <td>Mazda REPU</td>
-                        <td><span class="collection-tag j-imports">HW J-Imports</span></td>
-                        <td>2/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/4/49/Mainline_2025_Mazda_Repu_Tan_Malaysia_HYW98.jpg"
-                                alt="Mazda REPU">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HYX00</td>
-                        <td>049</td>
-                        <td>'22 Ford Maverick Custom</td>
-                        <td><span class="collection-tag modified">HW Modified</span></td>
-                        <td>1/5</td>
-                        <td class="image-cell">
-                            <img src="https://static.wikia.nocookie.net/hotwheels/images/d/d8/Mainline_2025_'22_Ford_Maverick_Custom_Dark_Yellow_Malaysia_HYX00.jpg"
-                                alt="'22 Ford Maverick Custom">
-                        </td>
-                    </tr>
+                <tbody id="tbody_2025">
                 </tbody>
             </table>
         </div>
     </div>
     <script type="text/javascript" src="index.js"></script>
+    <footer class="footer">
+        <div class="container">
+            <span>© Mi colección de Hot Wheels 2023-2025</span>
+            <a href="https://github.com/cruzavas" class="nav-link" target="_blank"><i
+                    class="fa fa-github fa-lg"></i></a>
+        </div>
+    </footer>
 </body>
 
 </html>
