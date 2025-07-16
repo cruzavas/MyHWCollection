@@ -325,19 +325,6 @@
         "categoria": "Fantasy"
     },
     {
-        "codigo": "HTF00",
-        "numero": "091",
-        "modelo": "'73 Jeep J10 (2nd Color)",
-        "coleccion": {
-            "nombre": "HW Hot Trucks",
-            "tipo": "hot-trucks",
-            "nuevo": false
-        },
-        "serie": "4/10",
-        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/e5/Mainline_2024_'73_Jeep_J10_White_Malaysia_HTF00.jpg",
-        "categoria": "Clásicos"
-    },
-    {
         "codigo": "HTD36",
         "numero": "105",
         "modelo": "Surf Duty (2nd Color)",
@@ -505,19 +492,6 @@
         "serie": "10/10",
         "imagen": "https://static.wikia.nocookie.net/hotwheels/images/f/f2/Mainline_2024_Mailed_It!_MF_Dark_Blue_Malaysia_HRY82.jpg",
         "categoria": "Fantasy"
-    },
-    {
-        "codigo": "HTB24",
-        "numero": "178",
-        "modelo": "Mercedes-Benz Unimog 1300L",
-        "coleccion": {
-            "nombre": "HW Dirt",
-            "tipo": "dirt",
-            "nuevo": false
-        },
-        "serie": "1/10",
-        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/d/d9/Mainline_2024_Mercedes-Benz_Unimog_1300L_MF_Green_Malaysia_HTB24.jpg",
-        "categoria": "Modernos"
     },
     {
         "codigo": "HRY84",

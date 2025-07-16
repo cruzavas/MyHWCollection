@@ -26,19 +26,6 @@
         "categoria": "Entretenimiento"
     },
     {
-        "codigo": "HKK14",
-        "numero": "015",
-        "modelo": "Track Manga (2nd Color)",
-        "coleccion": {
-            "nombre": "HW Art Cars",
-            "tipo": "art-cars",
-            "nuevo": false
-        },
-        "serie": "1/10",
-        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/7/78/HKK14.jpg",
-        "categoria": "Tuning"
-    },
-    {
         "codigo": "HKK15",
         "numero": "015",
         "modelo": "Track Manga (3rd Color)",
@@ -235,20 +222,6 @@
         "categoria": "Hot Rods"
     },
     {
-        "codigo": "HKK58",
-        "numero": "116",
-        "modelo": "GMC Hummer EV (3rd Color)",
-        "coleccion": {
-            "nombre": "HW Hot Trucks",
-            "tipo": "hot-trucks",
-            "nuevo": false
-        },
-        "serie": "3/10",
-        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/d/d9/HKK58.jpg",
-        "categoria": "Trucks",
-        "notas": "Modelo eléctrico moderno"
-    },
-    {
         "codigo": "HKJ35",
         "numero": "122",
         "modelo": "Surf 'N Turf",
@@ -378,19 +351,6 @@
         "serie": "4/10",
         "imagen": "https://static.wikia.nocookie.net/hotwheels/images/3/3e/HKK56.jpg",
         "categoria": "Hypercars"
-    },
-    {
-        "codigo": "HKK59",
-        "numero": "189",
-        "modelo": "Power Panel (2nd Color)",
-        "coleccion": {
-            "nombre": "HW Hot Trucks",
-            "tipo": "hot-trucks",
-            "nuevo": false
-        },
-        "serie": "5/10",
-        "imagen": "https://static.wikia.nocookie.net/hotwheels/images/c/cf/Power_Panel_HKK59.jpg",
-        "categoria": "Trucks"
     },
     {
         "codigo": "HKK60",
